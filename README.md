@@ -1,6 +1,6 @@
-***Simple Go http webserver***
+Simple Go http webserver
 
-I'm testing the httpwebserver.go program in windows10 with below docker cmd.
+To run it with docker cmd,
 'docker build -t test-server .'
 'docker run --rm -p 8080:8080 test-server'
 
