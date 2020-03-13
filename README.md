@@ -1,8 +1,8 @@
-Simple Go http webserver
+<h1>Simple Go http webserver</h1>
 
-To run it with docker cmd,
-'docker build -t test-server .'
-'docker run --rm -p 8080:8080 test-server'
+To run it with docker cmd.
+1. 'docker build -t test-server .'
+2. 'docker run --rm -p 8080:8080 test-server'
 
 There are 3 endpoints in httpwebserver.go, including "/", "/list", "/add"
 And below is how to query the endpoints with `curl`:
