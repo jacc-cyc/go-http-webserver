@@ -13,6 +13,8 @@ And below is how to query the endpoints with `curl`:
 2. For "/list" with func listAll to list all the objects
 => $curl http://localhost:8080/list
 
+like  `[{"timestamp": "2019-12-02T06:53:32Z", "key": "a", "value": "some value"},{"timestamp": "2019-12-02T06:53:35Z", "key": "asdf", "value": "some other value"}]`
+
 3. For "/add" with func addOne to add one object to dummy database
 => $curl -X POST -H "Content-Type: application/json" -d "{ \"key\": \"some key\",  \"value\": \"some value\"}" http://localhost:8080/add
 
