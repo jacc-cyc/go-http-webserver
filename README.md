@@ -5,8 +5,8 @@ To reproduce it with docker cmd.
 2. 'docker run --rm -p 8080:8080 test-server'
 
 <h1>How to use?</h1>
-There are 3 endpoints in httpwebserver.go, including "/", "/list", "/add"
-and below is how to query the endpoints with `curl`: <br>
+<p>There are 3 endpoints in httpwebserver.go, including "/", "/list", "/add"
+and below is how to query the endpoints with `curl`: </p>
 
 <ul>
   <li> "/", with func homePage
