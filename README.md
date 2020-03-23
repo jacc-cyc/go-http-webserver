@@ -18,7 +18,8 @@ and below is how to query the endpoints with `curl`: <br>
 e.g.  `[{"timestamp": "2019-12-02T06:53:32Z", "key": "a", "value": "some value"},{"timestamp": "2019-12-02T06:53:35Z", "key": "asdf", "value": "some other value"}]`</li>
 
 <li> POST "/add" json payload, with func addOne to add one object to dummy database<br>
-=> $curl -X POST -H "Content-Type: application/json" -d "{ \"key\": \"some key\",  \"value\": \"some value\"}" http://localhost:8080/add<br>
-e.g.  `{"key": "asdf", "value": "abcd"}` <br>
+=> $curl -X POST -H "Content-Type: application/json" -d "{ \"key\": \"some key\",  \"value\": \"some value\"}" http://localhost:8080/add
+  
+e.g.  `{"key": "asdf", "value": "abcd"}`<br>
 => $curl -X POST -H "Content-Type: application/json" -d "{ \"key\": \"asdf\",  \"value\": \"abcd\"}" http://localhost:8080/add
 </li></ul>
